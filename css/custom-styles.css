@@ -1,0 +1,14 @@
+/*Our custom CSS goes here*/
+body{font-family: 'Arial',sans-serif!}
+
+/*Where we've modified Bootstrap's CSS, prefix the new classes with se-*/
+#se-logo{padding:1em}
+.se-project-title{padding:1em}
+.se-primary-btn{color:#FFF;background-color:#00427F;margin-bottom:2em;font-weight: bold;border-radius: 0px;border:2px #00427F solid;
+  -webkit-transition: color, background-color 1s; /* Safari */
+  transition: color, background-color 1s;}
+.se-primary-btn:hover{color:#00427F;background-color: #FFF}
+.se-secondary-btn{color:#666;background-color:#e1e1e1;margin-bottom:2em;font-weight: bold;border-radius: 0px;border:2px #666 solid;
+  -webkit-transition: color, background-color 1s; /* Safari */
+  transition: color, background-color 1s;}
+.se-primary-btn:hover{color:#00427F;background-color: #FFF}
